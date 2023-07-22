@@ -5,7 +5,7 @@ def star_trace(t, R, r, theta):
     y = (R - r) * np.sin(theta) - r * np.sin((R - r) * t / r)
     return x, y
 
-t = np.linspace(0, 2 * np.pi, 100)
+t = np.linspace(0, 2 * np.pi, 1000)
 R = 10
 r = 1
 theta = np.pi / 4
