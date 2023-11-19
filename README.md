@@ -1,1 +1,1 @@
-# star-tracing on py
+# star-tracing on python
